@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 1 Qusetion 4 Presentation</title>
+    <style>
+        body {
+            background-color: #CCFF99;
+        }
+
+        fieldset.one {
+            border-style: solid;
+            background-color: #0099FF;
+            border-color: #000099;
+        }
+
+        legend.one {
+            color: #000099;
+        }
+
+        fieldset.two {
+            border-style: solid;
+            background-color: #FFCCFF;
+            border-color: #FF00FF;
+        }
+
+        legend.two {
+            color: #FF00FF;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>
+                <h2>Music Lover's Survey</h2>
+            </th>
+            <th><a
+                    href="https://www.freepik.com/free-vector/musical-melody-symbols-yellow-splotch_18175206.htm#query=writing%20music&position=0&from_view=keyword"><img
+                        src="C:\Users\87076\OneDrive\桌面\SOEN 287\A1\music.jpeg" alt="some_text"></a></th>
+        </tr>
+    </table>
+    <form action="">
+        <fieldset class="one">
+            <legend class="one"><b>Music Lover's Personal Information</b></legend>
+            <b>First Name: <input type="text" size="30"><br /><br />
+                Family Name: <input type="text" size="30"></b><br />
+            <p><b>Gender:</b><input type="radio" name="sex" value="female">Female<input type="radio" name="sex"
+                    value="male">Male<br /></p>
+            <p><b>What age category are you from?</b>
+                <select name="age">
+                    <option value="under 18">under 18</option>
+                    <option value="18-35">18-35</option>
+                    <option value="36-50">36-50</option>
+                    <option value="over 50">over 50</option>
+                </select>
+            </p>
+            <b>E-mail: </b><input type="text" size="30"><br>
+        </fieldset>
+        <fieldset class="two">
+            <legend class="two"><b>Survey Questions</b></legend>
+            <p><b>Which type of music do you listen to?(Pick as many as apply)</b><br />
+                <input type="checkbox" name="music type" value="Pop music">Pop music
+                <input type="checkbox" name="music type" value="Hip hop music">Hip hop music
+                <input type="checkbox" name="music type" value="Rock music">Rock music
+                <input type="checkbox" name="music type" value="Rhythm and blues">Rhythm and blues
+                <input type="checkbox" name="music type" value="Soul music">Soul music
+                <input type="checkbox" name="music type" value="Reggae">Reggae
+            </p>
+            <b>List your 3 favorite artist/bands:</b><br />
+            <input type="text" size="30"> <input type="text" size="30"> <input type="text" size="30">
+            <p><b>If you were to win tickets which show would you like 2 ticket to?</b><br />
+                <input type="radio" name="show" value="BRIT FLOYD(March 24, 2016)">BRIT FLOYD(March 24, 2016)
+                <input type="radio" name="show" value="IRON MAIDEN(April 1, 2016)">IRON MAIDEN(April 1, 2016)
+                <input type="radio" name="show" value="JANET JACKSON(June 17, 2016)">JANET JACKSON(June 17, 2016)
+                <input type="radio" name="show" value="ADELE(September 30, 2016)">ADELE(September 30, 2016)
+            </p>
+        </fieldset>
+        <p>Thank you for taking time to fill out our survey!</p>
+        <input type="submit" value="Submit"><input type="reset" value="Reset" />
+    </form>
+</body>
+
+</html>
